@@ -15,8 +15,17 @@
   color: #335EEA;
 }
 
+.badge.bg-success-soft {
+  background-color: rgba(66, 186, 150, .1);
+  color: #42ba96;
+}
+
 .text-primary-desat.underline {
   border-bottom: 3px solid rgba(51, 94, 234, .2);
+}
+
+.text-success.underline {
+  border-bottom: 3px solid rgba(66, 186, 150, 0.2);
 }
 
 hr {
