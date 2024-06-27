@@ -1,0 +1,30 @@
+//
+// user.scss
+// Use this to write your custom SCSS
+//
+.jarallax-container {
+  top: -1px !important;
+}
+
+.overlay-95::before {
+  opacity: 0.95;
+}
+
+.badge.bg-primary-soft {
+  background-color: rgba(51, 94, 234, 0.1);
+  color: #335EEA;
+}
+
+.text-primary-desat.underline {
+  border-bottom: 3px solid rgba(51, 94, 234, .2);
+}
+
+hr {
+  color: #dee1e6;
+}
+
+@media (max-width: 480px) {
+  .btn-fw-mobile {
+      width:100%;
+  }
+}
