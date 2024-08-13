@@ -2,368 +2,52 @@
 <html lang="en">
   <head>
     {{> partials/head
-      title="Tempest | Your #1 Source for Automotive Hail Leads"
-      description="Automotive hail damage leads starting at $300 per lead. Generated exclusively for your PDR business and delivered within 72 hours."
+      title="Tempest Leads | Your #1 Source for Automotive Hail Leads"
+      description="Automotive hail damage leads starting at $200 per lead. Generated exclusively for your PDR business and delivered within 72 hours."
     }}
   </head>
-  <body class="pt-10">
+  <body style="margin-top: 87.2px;">
 
     <!-- NAVBAR -->
     {{> partials/navbar classList="fixed-top bg-light" container="container-fluid" button="primary"}}
 
-    <!-- WELCOME -->
-    <section class="pt-4 pb-11 pt-md-9 pb-md-12 py-lg-14 bg-light bg-between" style="background-image: url(assets/img/illustrations/illustration-6-cropped.png), url(assets/img/illustrations/illustration-4-cropped.png);">
+    <!-- ALERT -->
+    {{> partials/alert}}
+
+    <!-- HERO -->
+    <section class="pt-8 pb-10 py-md-14 overlay overlay-black overlay-80 bg-cover" style="background-image: url(assets/img/automotive-hail-damage-leads.jpg);">
+
+      <!-- Shape -->
+      <div class="shape shape-blur-3 text-white">
+        {{> blurs/blur-3}}
+      </div>
+
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-12 col-md-10 col-lg-8 text-center" data-aos="fade-up">
+          <div class="col-12 col-md-10 col-lg-9 text-center">
 
-            <!-- Image (mobile) -->
-            <img src="assets/img/illustrations/illustration-6.png" alt="..." class="img-fluid mb-4 d-lg-none" style="max-width: 50%;">
+            <!-- Badge -->
+            <span class="badge rounded-pill text-bg-success-subtle mb-4">
+              <span class="h6 text-uppercase">Starting at $200/lead</span>
+            </span>
 
             <!-- Heading -->
-            <h1 class="display-2 fw-bold">
-              Grow your PDR business with more customers.
+            <h1 class="display-2 fw-bold text-white">
+              Grow your PDR business with high-converting leads
             </h1>
 
             <!-- Text -->
-            <p class="fs-lg text-body-secondary mb-6 mb-md-8">
-              We connect deductible assistance PDR shops with automotive hail damage victims that are actively seeking repair.
+            <p class="lead text-white text-opacity-75 mb-7 px-lg-10">
+              We connect deductible assistance PDR shops with automotive hail damage victims actively seeking repair.
             </p>
 
             <!-- Button -->
             <a href="{{webRoot}}/buy-leads.html" class="btn btn-primary me-1 lift">
-              Get Customers <i class="fe fe-arrow-right ms-3"></i>
+              Get Leads Now <i class="fe fe-arrow-right ms-3"></i>
             </a>
-            <a href="#moreLeads" class="btn btn-primary-subtle lift" data-scroll>
-              Learn more
+            <a href="#benefits" class="btn btn-primary-subtle lift" data-scroll>
+              <span class="text-white">Learn more</span>
             </a>
-
-          </div>
-        </div> <!-- / .row -->
-      </div> <!-- / .container -->
-    </section>
-
-    <!-- SHAPE -->
-    <div class="position-relative">
-      <div class="shape shape-bottom shape-fluid-x text-white">
-        {{> curves/curve-1}}
-      </div>
-    </div>
-
-    <!-- PRICING -->
-    <section class="mt-n8">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 col-md-4" data-aos="fade-up" data-aos-delay="50">
-
-            <!-- Card -->
-            <div class="card shadow-light-lg mb-6 mb-md-0 lift lift-lg">
-              <div class="card-body">
-
-                <!-- Badge -->
-                <span class="badge rounded-pill text-bg-primary-desat badge-float badge-float-outside">
-                  $400/lead
-                </span>
-
-                <!-- Heading -->
-                <h4 class="fw-bold mb-4">
-                  5 Customers
-                </h4>
-
-                <!-- List -->
-                <div class="d-flex">
-
-                  <!-- Badge -->
-                  <div class="badge badge-rounded-circle text-bg-success-subtle mt-1 me-3">
-                    <i class="fe fe-check"></i>
-                  </div>
-
-                  <!-- Text -->
-                  <p class="text-body-secondary mb-1">
-                    In your service area
-                  </p>
-
-                </div>
-                <div class="d-flex">
-
-                  <!-- Badge -->
-                  <div class="badge badge-rounded-circle text-bg-success-subtle mt-1 me-3">
-                    <i class="fe fe-check"></i>
-                  </div>
-
-                  <!-- Text -->
-                  <p class="text-body-secondary mb-1">
-                    Full contact information
-                  </p>
-
-                </div>
-                <div class="d-flex">
-
-                  <!-- Badge -->
-                  <div class="badge badge-rounded-circle text-bg-success-subtle mt-1 me-3">
-                    <i class="fe fe-check"></i>
-                  </div>
-
-                  <!-- Text -->
-                  <p class="text-body-secondary">
-                    Delivered within 72 hours
-                  </p>
-
-                </div>
-
-                <!-- Link -->
-                <a href="{{webRoot}}/buy-leads.html" class="fs-sm fw-bold text-decoration-none">
-                  Get 5 Customers <i class="fe fe-arrow-right ms-3"></i>
-                </a>
-
-              </div>
-            </div>
-
-          </div>
-          <div class="col-12 col-md-4" data-aos="fade-up" data-aos-delay="100">
-
-            <!-- Card -->
-            <div class="card shadow-light-lg mb-6 mb-md-0 lift lift-lg">
-              <div class="card-body">
-
-                <!-- Badge -->
-                <span class="badge rounded-pill text-bg-primary-desat badge-float badge-float-outside">
-                  $350/lead
-                </span>
-
-                <!-- Heading -->
-                <h4 class="fw-bold mb-4">
-                  10 Customers
-                </h4>
-
-                <!-- List -->
-                <div class="d-flex">
-
-                  <!-- Badge -->
-                  <div class="badge badge-rounded-circle text-bg-success-subtle mt-1 me-3">
-                    <i class="fe fe-check"></i>
-                  </div>
-
-                  <!-- Text -->
-                  <p class="text-body-secondary mb-1">
-                    In your service area
-                  </p>
-
-                </div>
-                <div class="d-flex">
-
-                  <!-- Badge -->
-                  <div class="badge badge-rounded-circle text-bg-success-subtle mt-1 me-3">
-                    <i class="fe fe-check"></i>
-                  </div>
-
-                  <!-- Text -->
-                  <p class="text-body-secondary mb-1">
-                    Full contact information
-                  </p>
-
-                </div>
-                <div class="d-flex">
-
-                  <!-- Badge -->
-                  <div class="badge badge-rounded-circle text-bg-success-subtle mt-1 me-3">
-                    <i class="fe fe-check"></i>
-                  </div>
-
-                  <!-- Text -->
-                  <p class="text-body-secondary">
-                    Delivered within 72 hours
-                  </p>
-
-                </div>
-
-                <!-- Link -->
-                <a href="{{webRoot}}/buy-leads.html" class="fs-sm fw-bold text-decoration-none">
-                  Get 10 Customers <i class="fe fe-arrow-right ms-3"></i>
-                </a>
-
-              </div>
-            </div>
-
-          </div>
-          <div class="col-12 col-md-4" data-aos="fade-up" data-aos-delay="150">
-
-            <!-- Card -->
-            <div class="card shadow-light-lg lift lift-lg">
-              <div class="card-body">
-
-                <!-- Badge -->
-                <span class="badge rounded-pill text-bg-primary-desat badge-float badge-float-outside">
-                  $300/lead
-                </span>
-
-                <!-- Heading -->
-                <h4 class="fw-bold mb-4">
-                  20 Customers
-                </h4>
-
-                <!-- List -->
-                <div class="d-flex">
-
-                  <!-- Badge -->
-                  <div class="badge badge-rounded-circle text-bg-success-subtle mt-1 me-3">
-                    <i class="fe fe-check"></i>
-                  </div>
-
-                  <!-- Text -->
-                  <p class="text-body-secondary mb-1">
-                    In your service area
-                  </p>
-
-                </div>
-                <div class="d-flex">
-
-                  <!-- Badge -->
-                  <div class="badge badge-rounded-circle text-bg-success-subtle mt-1 me-3">
-                    <i class="fe fe-check"></i>
-                  </div>
-
-                  <!-- Text -->
-                  <p class="text-body-secondary mb-1">
-                    Full contact information
-                  </p>
-
-                </div>
-                <div class="d-flex">
-
-                  <!-- Badge -->
-                  <div class="badge badge-rounded-circle text-bg-success-subtle mt-1 me-3">
-                    <i class="fe fe-check"></i>
-                  </div>
-
-                  <!-- Text -->
-                  <p class="text-body-secondary">
-                    Delivered within 72 hours
-                  </p>
-
-                </div>
-
-                <!-- Link -->
-                <a href="{{webRoot}}/buy-leads.html" class="fs-sm fw-bold text-decoration-none">
-                  Get 20 Customers <i class="fe fe-arrow-right ms-3"></i>
-                </a>
-
-              </div>
-            </div>
-
-          </div>
-        </div> <!-- / .row -->
-      </div> <!-- / .container -->
-    </section>
-
-    <!-- MORE LEADS = MORE MONEY -->
-    <section id="moreLeads" class="py-8 py-md-11">
-      <div class="container">
-        <div class="row gx-0 mb-5 mb-md-7">
-          <div class="col-12 col-md-4 text-center">
-
-            <div class="row mb-5">
-              <div class="col">
-
-                <!-- Placeholder -->
-
-              </div>
-              <div class="col-auto">
-
-                <!-- Icon -->
-                <div class="icon text-primary mb-3">
-                  {{> communication/group}}
-                </div>
-
-              </div>
-              <div class="col">
-
-                <!-- Divider -->
-                <hr class="d-none d-md-block">
-
-              </div>
-            </div> <!-- / .row -->
-
-            <!-- Heading -->
-            <h3 class="fw-bold">
-              Exclusive leads
-            </h3>
-
-            <!-- Text -->
-            <p class="text-body-secondary mb-6 mb-md-0">
-              Our leads are generated specifically for you in your service area and never shared.
-            </p>
-
-          </div>
-          <div class="col-12 col-md-4 text-center">
-
-            <div class="row mb-5">
-              <div class="col">
-
-                <!-- Divider -->
-                <hr class="d-none d-md-block">
-
-              </div>
-              <div class="col-auto">
-
-                <!-- Icon -->
-                <div class="icon text-primary mb-3">
-                  {{> communication/urgent-mail}}
-                </div>
-
-              </div>
-              <div class="col">
-
-                <!-- Divider -->
-                <hr class="d-none d-md-block">
-
-              </div>
-            </div> <!-- / .row -->
-
-            <!-- Heading -->
-            <h3 class="fw-bold">
-              72 hour delivery
-            </h3>
-
-            <!-- Text -->
-            <p class="text-body-secondary mb-6 mb-md-0">
-              Our leads are generated and delivered within 72 hours from time of purchase.
-            </p>
-
-          </div>
-          <div class="col-12 col-md-4 text-center">
-
-            <div class="row mb-5">
-              <div class="col">
-
-                <!-- Divider -->
-                <hr class="d-none d-md-block">
-
-              </div>
-              <div class="col-auto">
-
-                <!-- Icon -->
-                <div class="icon text-primary mb-3">
-                  {{> navigation/double-check}}
-                </div>
-
-              </div>
-              <div class="col">
-
-                <!-- Placeholder -->
-
-              </div>
-            </div> <!-- / .row -->
-
-            <!-- Heading -->
-            <h3 class="fw-bold">
-              Quality guarantee
-            </h3>
-
-            <!-- Text -->
-            <p class="text-body-secondary mb-0">
-              Our leads come with all relevant vehicle and contact info for you to earn the customer.
-            </p>
 
           </div>
         </div> <!-- / .row -->
@@ -376,6 +60,104 @@
         {{> curves/curve-1}}
       </div>
     </div>
+
+    <!-- BENEFITS -->
+    <section id="benefits" class="mt-n8 bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-4" data-aos="fade-up" data-aos-delay="50">
+
+            <!-- Card -->
+            <div class="card shadow-light-lg mb-6 mb-md-0 lift lift-lg">
+              <div class="card-body text-center">
+
+                <!-- Icon -->
+                <div class="icon text-primary mb-3">
+                  {{> communication/chat-locked}}
+                </div>
+
+                <!-- Heading -->
+                <h4 class="fw-bold mb-4">
+                  Exclusive Leads
+                </h4>
+
+                <!-- List -->
+                <div class="d-flex">
+
+                  <!-- Text -->
+                  <p class="text-body-secondary mb-1">
+                    Our leads are generated specifically for you in your service area and never shared.
+                  </p>
+
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+          <div class="col-12 col-md-4" data-aos="fade-up" data-aos-delay="100">
+
+            <!-- Card -->
+            <div class="card shadow-light-lg mb-6 mb-md-0 lift lift-lg">
+              <div class="card-body text-center">
+
+                <!-- Icon -->
+                <div class="icon text-primary mb-3">
+                  {{> communication/urgent-mail}}
+                </div>
+
+                <!-- Heading -->
+                <h4 class="fw-bold mb-4">
+                  72 Hour Delivery
+                </h4>
+
+                <!-- List -->
+                <div class="d-flex">
+
+                  <!-- Text -->
+                  <p class="text-body-secondary mb-1">
+                    Our leads are generated and delivered within 72 hours from time of purchase.
+                  </p>
+
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+          <div class="col-12 col-md-4" data-aos="fade-up" data-aos-delay="150">
+
+            <!-- Card -->
+            <div class="card shadow-light-lg lift lift-lg">
+              <div class="card-body text-center">
+
+                <!-- Icon -->
+                <div class="icon text-primary mb-3">
+                  {{> navigation/double-check}}
+                </div>
+
+                <!-- Heading -->
+                <h4 class="fw-bold mb-4">
+                  Quality Guarantee
+                </h4>
+
+                <!-- List -->
+                <div class="d-flex">
+
+                  <!-- Text -->
+                  <p class="text-body-secondary mb-1">
+                    Our leads come with all relevant vehicle and contact info for you to earn the customer.
+                  </p>
+
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
 
     <!-- HUB -->
     <section class="pt-8 pt-md-12 pb-10 bg-light">
@@ -393,7 +175,7 @@
 
             <!-- Badge -->
             <span class="badge rounded-pill text-bg-primary-subtle mb-3">
-              <span class="h6 text-uppercase">Our Mission</span>
+              <span class="h6 text-uppercase">Your Success, Our Mission</span>
             </span>
 
             <!-- Heading -->
@@ -450,7 +232,8 @@
 
             <!-- Badge -->
             <span class="badge rounded-pill text-bg-primary-subtle mb-3">
-              <span class="h6 text-uppercase">About Us</span>
+              <span class="h6 text-uppercase">Why Choose Tempest?
+              </span>
             </span>
 
             <!-- Heading -->

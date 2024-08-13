@@ -1,13 +1,17 @@
-//
-// user.scss
-// Use this to write your custom SCSS
-//
 .jarallax-container {
   top: -1px !important;
 }
 
+.jarallax-fix .jarallax-container {
+  top: 1px !important;
+}
+
 .overlay-95::before {
   opacity: 0.95;
+}
+
+.badge span {
+  font-weight: 800;
 }
 
 .badge.bg-primary-soft {
